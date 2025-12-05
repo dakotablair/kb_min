@@ -1,3 +1,4 @@
 module-description: A minimal KBase module
 module-name: kb_min
 module-version: 0.0.1
+service-language: python
