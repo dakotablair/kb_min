@@ -1,5 +1,5 @@
 module-description: A minimal KBase module
 module-name: kb_min
 module-version: 0.0.1
-owners: dakota
+owners: [ "dakota" ]
 service-language: python
