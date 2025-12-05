@@ -8,4 +8,4 @@ RUN mkdir -p /kb/module/work
 ENV KB_SDK_COMPILE_REPORT_FILE="/kb/module/work/compile_report.json"
 RUN echo {} | jq . > $KB_SDK_COMPILE_REPORT_FILE
 
-ENTRYPOINT ["bash", "-c", "echo BRB, ZZZ!;sleep 4; echo"]
+ENTRYPOINT ["bash", "-c", "echo {} | jq . > $KB_SDK_COMPILE_REPORT_FILE;echo"]
