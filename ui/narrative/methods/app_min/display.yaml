@@ -1,0 +1,5 @@
+description: description is required
+name: app_min    # required
+parameters : {}  # required
+screenshots: []  # required
+tooltip: tooltip is required
